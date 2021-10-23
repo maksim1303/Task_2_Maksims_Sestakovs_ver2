@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+.nav-link.disabled{
+    color:black !important;
+}
+
+/*
+#spacing {
+    margin-left: ($ spacer * .5) !important;
+}*/
+/*
+.navbar-brand {
+    padding: 0px; !* firefox bug fix *!
+}
+.navbar-brand>img {
+    height: 100%;
+    padding: 15px; !* firefox bug fix *!
+    width: auto;
+}*/
+.nav-item {
+    padding-top: 2% !important;
+}
+
+@media (max-width: @screen-xs) {
+    body{font-size: 14px;}
+}
+
+@media (max-width: @screen-sm) {
+    body{font-size: 18px;}
+}
+
+*{
+    font-family: Montserrat,sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    /*font-size: 18px;*/
+    line-height: 22px;
+}
+.navbar-brand{
+    padding-right:25px;
+}
+.cut-effect {
+/*clip-path here*/
+}

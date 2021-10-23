@@ -1,0 +1,168 @@
+/*noinspection CssUnknownTarget*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+li {
+    display: inline;
+}
+
+.logo {
+    margin-left:10px ;
+}
+.size{
+    width:7%;
+    left:5%;
+    top:2%;
+}
+
+.box {
+    display: flex;
+    align-items: stretch;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+/*a:link,visited,hover,active{*/
+/*    color:black;*/
+/*    text-un;*/
+/*}*/
+
+.menu_text{
+    display: inline;
+    padding: 12px 35px;
+    font-size: 18px;
+}
+/*!* Extra small devices (phones, less than 768px) *!*/
+/*!* No media query since this is the default in Bootstrap *!*/
+
+/*!* Small devices (tablets, 768px and up) *!*/
+/*@media (min-width: @screen-sm-min) { ... }*/
+
+/*!* Medium devices (desktops, 992px and up) *!*/
+/*@media (min-width: @screen-md-min) { ... }*/
+
+/*!* Large devices (large desktops, 1200px and up) *!*/
+/*@media (min-width: @screen-lg-min) { ... }*/
+
+*{
+    font-family: Montserrat,sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.menu{
+    list-style-type: none;
+    overflow: hidden;
+    position:relative;
+    left:15.4%;
+}
+
+.video_prewiew{
+    position: relative;
+    width: 1366px;
+    height: 722px;
+    left: 0px;
+    top: 47px;
+    display: block;
+}
+
+.play{
+    position:relative;
+    top:45%;
+    left:35%;
+    z-index: -1;
+}
+
+.picture {
+    position:relative;
+    width:70%;
+    /*width: 1366px;*/
+    /*height: 722px;*/
+}
+.picture .overlay {
+    position:absolute;
+    top: -10%;
+    left: 35%;
+    margin: 500px;
+    width: 86px;
+    height: 83px;
+}
+
+.text-style{
+    font-weight: 400;
+    font-style:normal;
+    font-size: 18px;
+    line-height: 21.94px;
+    text-align:center;
+    margin: 10%;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 5vw);
+    /*grid-gap: 1.5rem;*/
+}
+
+.gallery__img {
+    width: 200%;
+}
+
+.question-text{
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+}
+.button-style{
+    margin-top: 50px;
+    position:relative;
+    left:2.5%;
+    background-color: #FFA800;
+    width:100%;
+    box-sizing: border-box;
+    border-radius: 35px;
+    outline: none;
+    width: 300px;
+    height: 50px;
+    color:white;
+    border: none;
+}
+.input-style{
+    background: rgba(196, 196, 196, 0.4);
+    border-radius: 6px;
+    border: none;
+    width:296px;
+    height:43px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.input-style2{
+    background-color: rgba(196, 196, 196, 0.4);
+    border-radius: 6px;
+    border: none;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.button-style2{
+    margin-left: 20%;
+    background-color: #FFA800;
+    width:100%;
+    box-sizing: border-box;
+    border-radius: 35px;
+    outline: none;
+    width: 170px;
+    height: 70px;
+    color:white;
+    border: none;
+}
+.sponsor{
+    margin-left: 7%;
+}
+.blue-table-link{
+    color:white;
+}

@@ -43,3 +43,25 @@
 .cut-effect {
 /*clip-path here*/
 }
+.gallery1{
+    width:100% !important;
+    height:100% !important;
+}
+
+.image {
+    width: 298px;
+    height: 180px;
+}
+
+.image:first-child {
+    background-image: url("../img/Brinuma_meita-15.jpg");
+}
+.image:last-child {
+    background-image: url("../img/Alina_1.jpg");
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+}

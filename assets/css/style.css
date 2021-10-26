@@ -48,20 +48,21 @@
     height:100% !important;
 }
 
-.image {
+.img3-4 {
     width: 298px;
     height: 180px;
 }
 
-.image:first-child {
+.img3-4:first-child {
     background-image: url("../img/Brinuma_meita-15.jpg");
 }
-.image:last-child {
+.img3-4:last-child {
     background-image: url("../img/Alina_1.jpg");
 }
+/*
 .container {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
     justify-items: center;
-}
+}*/
